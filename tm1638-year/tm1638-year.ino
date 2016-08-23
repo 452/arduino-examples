@@ -6,15 +6,18 @@
 
 TM1638 module(PIN_DATA, PIN_CLOCK, PIN_STROBE);
 
+// http://www.uize.com/examples/seven-segment-display.html
+
 const byte MESSAGE[] = {
   0b01101111, // 9
   0b01111111, // 8
   0b01100110, // 4
-  0,
   0b1101110,  // Y
   0b01111001, // E
   0b01110111, // A
-  0b01010000  // r
+  0b01110111, // R 
+  //0b01010000,  // r
+  0b01101101  // S
 };
 
 void setup() {
