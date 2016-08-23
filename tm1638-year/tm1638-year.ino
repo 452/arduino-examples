@@ -11,7 +11,7 @@ TM1638 module(PIN_DATA, PIN_CLOCK, PIN_STROBE);
 const byte MESSAGE[] = {
   0b01101111, // 9
   0b01111111, // 8
-  0b01100110, // 4
+  0b11100110, // 4
   0b1101110,  // Y
   0b01111001, // E
   0b01110111, // A
